@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comunícate con nosotros para realizar tus pedidos y consultas.">
+    <meta name="keywords"  content="Puesto mascotas, redes, contacto, teléfono, pedidos.">
+    <title>Puesto Mascotas - Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="./Img/Logo Portada fi.png" >
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="./Img/baner puesto mascota.png" alt="Logo Puesto mascotas" class="img-fluid header__banner" >
+    
+        <!--Barra de botones-->
+        <nav class="navbar navbar-expand-lg navbar-light header__navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button"data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"id="navbarNavAltMarkup">
+                    <div class="navbar-nav menu">
+                        <a class="nav-link "href="./index.html">Inicio</a>
+                        <a class="nav-link" href="./Alimentos.html">Alimentos</a>
+                        <a class="nav-link" href="./accesorios.html">Accesorios</a>
+                        <a class="nav-link" href="./Consejos.html">Consejos</a>
+                        <a class="nav-link active"  aria-current="page" href="./Contacto.html">Contacto</a>
+ 
+                    </div>
+                </div>
+            </div>
+        </nav>
+ 
+    </header>
+ 
+    <main>
+        <!--Formulario de contacto-->
+        <h1 class="TituloContactos">COMUNICATE CON NOSOTROS</h1>
+        <form action="#" class="formularioDeContacto">
+            <fieldset class="formularioDeContacto__datos">
+                <legend>Datos de Contacto</legend>
+           
+                <div>
+                    <label for="Nombre">Escribe tu nombre *</label>
+                    <input type="text" name="Nombre" requiered
+                    placeholder="Nombre">
+                    <label for="Apellido">Escribe tu apellido</label>
+                    <input type="text" name="Apellido"
+                    placeholder="Apellido">                
+                </div>
+                    <br>
+                <div>
+                    <label for="Tel"> Teléfono de contacto * </label>
+                    <input type="number" name="tel" requiered
+                    placeholder="Ingrese su teléfono">
+                    <label for="Email">Escribe tu correo electrónico *</label>
+                    <input type="email" name="email" requiered
+                    placeholder="Ingrese su email">
+                </div>
+                    <br>
+                <div>
+                    <label for="Cantidad de mascotas">Selecciona la cantidad de mascotas</label>
+                    <select name="Cantidad de mascotas">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="mas de 4">mas de 4</option>
+                    </select>
+                </div>
+                    <br>
+                <div>
+                    <label for="Tipo">Indique por qué animal realiza la consulta</label>
+                    <input type="radio" name="tipo" value="Perro"> Perro
+                    <input type="radio" name="tipo" value="Gato"> Gato
+                    <input type="radio" name="tipo" value="Otro"> Otro
+                </div>
+                    <br>
+                <div>
+                    <label for="comentario">Ingrese su consulta</label>
+                    <textarea class="formularioDeContacto__datos__textArea" name="comentario" id="" cols="60" rows="10"></textarea>
+                </div>
+                    <br>          
+                <div>
+                    <input type="submit" value="Enviar formulario"/>
+                    <input type="reset" value="Limpiar formulario"/>  
+                </div>
+ 
+            </fieldset>
+        </form>        
+    </main>
+ 
+    <footer class="footer">
+        <section class="footer__redes">
+            <a href="https://www.instagram.com/puestomascotas/" target="_bkank"> <img class="footer__redes__img" src="./Img/instagram.png" alt="instagram" width="50"></a>
+            <a href="https://www.facebook.com/puestomascotas" target="_bkank"><img class="footer__redes__img" src="./Img/facebook.png" alt="Facebook" width="50"></a>
+            <a href="https://wa.me/+541158305862" target="_bkank"><img class="footer__redes__img" src="./Img/whatsapp.png" alt="Watsapp" width="50"></a>
+        </section>
+    </footer>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

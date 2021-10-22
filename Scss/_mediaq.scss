@@ -1,0 +1,63 @@
+@import "variables";
+
+@media only screen and (min-width: 768px) {
+    
+    .ofertas__titulo{
+        font-size: 10vh;
+    }
+    .clientes__titulo{
+        font-size: 3vh;
+    }
+    /* ajusta el tamaño de fuente pag principal */
+    
+    .clientes__imagenes{
+        font-size: $siseTituloImgCliente*1.5;    
+    }
+    /* ajusta el tamaño de fuente del menu */
+    .menu{
+        font-size: 120%;
+    }
+    .caracteristicasTecnicas {
+        h2{
+            @include baseTitulo(3rem);
+    
+        }
+        
+    }
+    .accesorios{
+        grid-template-columns: 1fr 1fr ;
+            
+        }
+    
+}    
+
+@media only screen and (min-width: 1024px) {
+    
+    .ofertas__titulo{
+        font-size: 12vh;
+    }
+    .clientes__titulo{
+        font-size: 4.5vh;
+    }
+    /* ajusta el tamaño de fuente pag principal */
+    .clientes__imagenes{
+        font-size: $siseTituloImgCliente*2;
+    
+    }    
+    /* ajusta el tamaño de fuente del menu */
+    .menu{
+        font-size: 150%;
+    }
+    
+    .caracteristicasTecnicas {
+        h2{
+            @include baseTitulo(4rem);
+    
+        }
+    }
+    
+    .accesorios{
+        grid-template-columns: 1fr 1fr 1fr;
+                
+        }
+}

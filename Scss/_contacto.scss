@@ -1,0 +1,18 @@
+.TituloContactos{
+    @include baseTitulo(4vw);
+}
+.formularioDeContacto{
+    padding: 3%;
+
+
+    &__datos{
+        border: solid;
+        background-color: #ece3cd ;
+        margin: 0% 10% 0% 10%;
+        padding: 2%;
+    
+        &__textArea{
+            max-width: 90%;
+        }
+    }   
+}

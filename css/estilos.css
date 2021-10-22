@@ -1,0 +1,346 @@
+@charset "UTF-8";
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: Helvetica, 'Roboto', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #f3e4ba 0%, #faf3e4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbf3dd', endColorstr='#faf3e4',GradientType=1 );
+}
+
+.footer {
+  background: -webkit-gradient(linear, left bottom, left top, from(#5c5c5c), to(#9D9D9D));
+  background: linear-gradient(to top, #5c5c5c, #9D9D9D);
+  color: whitesmoke;
+  position: absolute boton;
+}
+
+.footer .footer__redes__img {
+  width: 6vw;
+  max-width: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 22%;
+}
+
+.footer .footer__redes__img:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+.header {
+  background: #d7e9f7;
+}
+
+.header .header__banner {
+  width: 95%;
+  margin-left: 2%;
+  margin-top: 7px;
+}
+
+.header .header__navbar {
+  margin-left: 2%;
+}
+
+.ofertas__titulo {
+  color: #5E454B;
+  font-size: 5vh;
+  text-align: center;
+}
+
+.ofertas__carousel {
+  width: 90%;
+}
+
+/* limita el tamaño del cartel de publicidad */
+.clientes {
+  margin-bottom: 5px;
+  /*Centra las imagenes de clientes */
+}
+
+.clientes__titulo {
+  color: #5E454B;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.clientes__publicidad {
+  max-height: 400px;
+  margin: 2% 2% 2% 0%;
+}
+
+.clientes__imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.clientes__imagenes__item {
+  border: white 10px solid;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+}
+
+.marcas .marcas__titulo {
+  color: #5E454B;
+  font-size: 3.5vw;
+  text-align: center;
+}
+
+.marcas .marcas__lista {
+  margin: 2% 6%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.marcas .marcas__lista .marcas__lista__item {
+  padding: 5px;
+  margin: 1rem;
+}
+
+.marcas .marcas__lista .marcas__lista__item:hover {
+  background-color: rgba(245, 245, 245, 0.137);
+  -webkit-transform: scale(1.05, 1.05);
+          transform: scale(1.05, 1.05);
+}
+
+.caracteristicasTecnicas h2 {
+  color: #5E454B;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/*Modifica las tablas*/
+.estiloTabla {
+  background-color: rgba(215, 233, 247, 0.651);
+  margin: 1% 2% 3% 2%;
+  text-align: center;
+}
+
+.estiloTabla ul {
+  list-style: none;
+}
+
+.estiloTabla th {
+  background-color: #9D9D9D;
+  padding: 5px;
+  border: solid black;
+}
+
+.estiloTabla td {
+  padding: 2px;
+  border: solid black;
+}
+
+.TituloContactos {
+  color: #5E454B;
+  font-size: 4vw;
+  text-align: center;
+}
+
+.formularioDeContacto {
+  padding: 3%;
+}
+
+.formularioDeContacto__datos {
+  border: solid;
+  background-color: #ece3cd;
+  margin: 0% 10% 0% 10%;
+  padding: 2%;
+}
+
+.formularioDeContacto__datos__textArea {
+  max-width: 90%;
+}
+
+.baseConsejos, .consejos .consejos__titulo, .cambioAlimento .cambioAlimento__titulo, .cuidadoCahorros .cuidadoCahorros__titulo {
+  text-align: center;
+  color: #5E454B;
+  margin-top: 2%;
+}
+
+.consejos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.consejos .consejos__etiquetas {
+  border: 2px solid black;
+  background-color: #d7e9f7;
+  border-radius: 5%;
+  width: 30%;
+  margin: 2%;
+  min-width: 300px;
+  min-height: 250px;
+  padding: 15px;
+  color: #6e6e6e;
+  opacity: 0.7;
+}
+
+.consejos .consejos__etiquetas__titulo {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 3px;
+}
+
+.consejos .consejos__etiquetas img {
+  height: 140px;
+}
+
+.consejos .consejos__etiquetas__subtitulo {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 3px;
+}
+
+.consejos .consejos__etiquetas__texto {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 3px;
+  margin-top: 3px;
+}
+
+.consejos .consejos__etiquetas:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 1;
+}
+
+.cambioAlimento .cambioAlimento__img {
+  margin: 2%;
+  width: 35%;
+  min-width: 300px;
+}
+
+.cuidadoCahorros .cuidadoCahorros__video {
+  margin: 2%;
+}
+
+/*Arma el colage de imagenes de Accesorios*/
+.tituloAccesorios {
+  color: #5E454B;
+  font-size: 4vw;
+  text-align: center;
+}
+
+.accesorios {
+  margin: 5%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  gap: 20px;
+  justify-items: center;
+}
+
+.accesorios__elementos {
+  width: 300px;
+  height: 500px;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  border-radius: 4%;
+  border: solid 10px white;
+  background-color: #d7e9f7;
+}
+
+.accesorios__elementos img {
+  width: 100%;
+}
+
+.accesorios__elementos h3 {
+  text-align: center;
+}
+
+.accesorios__elementos p {
+  text-align: center;
+}
+
+.accesorios__elementos button {
+  margin: 5%;
+  width: 90%;
+  border-radius: 10%;
+  text-align: center;
+}
+
+.accesorios__elementos:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+@media only screen and (min-width: 768px) {
+  .ofertas__titulo {
+    font-size: 10vh;
+  }
+  .clientes__titulo {
+    font-size: 3vh;
+  }
+  /* ajusta el tamaño de fuente pag principal */
+  .clientes__imagenes {
+    font-size: 1.5rem;
+  }
+  /* ajusta el tamaño de fuente del menu */
+  .menu {
+    font-size: 120%;
+  }
+  .caracteristicasTecnicas h2 {
+    color: #5E454B;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .accesorios {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .ofertas__titulo {
+    font-size: 12vh;
+  }
+  .clientes__titulo {
+    font-size: 4.5vh;
+  }
+  /* ajusta el tamaño de fuente pag principal */
+  .clientes__imagenes {
+    font-size: 2rem;
+  }
+  /* ajusta el tamaño de fuente del menu */
+  .menu {
+    font-size: 150%;
+  }
+  .caracteristicasTecnicas h2 {
+    color: #5E454B;
+    font-size: 4rem;
+    text-align: center;
+  }
+  .accesorios {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

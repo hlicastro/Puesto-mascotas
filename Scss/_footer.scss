@@ -1,0 +1,16 @@
+.footer{
+    background: linear-gradient(to top, #5c5c5c , #9D9D9D );
+    color: whitesmoke;
+    position: absolute boton;
+    .footer__redes__img{
+            width: 6vw;
+            max-width: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 22%;
+            &:hover{
+                transform: scale(1.04);
+            }
+        }
+    
+}

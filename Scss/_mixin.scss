@@ -1,0 +1,13 @@
+
+
+@mixin baseTitulo($fontS){
+    color: $colortitulos;
+    font-size: $fontS;
+    text-align: center;
+}
+@mixin consejosDiceno($fontE){
+    text-align: center;
+    font-size: $fontE;
+    margin-top: 3px;
+    
+}

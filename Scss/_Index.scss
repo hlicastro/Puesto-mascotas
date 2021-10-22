@@ -1,0 +1,35 @@
+
+.ofertas{ 
+    &__titulo{
+        @include baseTitulo(5vh);
+    }
+    &__carousel{
+        width: 90%;
+    }
+}
+
+/* limita el tamaño del cartel de publicidad */
+.clientes{
+    margin-bottom: 5px;
+    &__titulo{
+        @include baseTitulo($siseTituloImgCliente);
+    }
+    &__publicidad{
+        max-height: 400px;
+        margin: 2% 2% 2% 0%;
+    }
+/*Centra las imagenes de clientes */
+    &__imagenes{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        &__item{
+            border: white 10px solid;
+            width: 300px;
+            height: 300px;
+            margin: 5px;
+        }
+    }
+
+
+}
