@@ -71,6 +71,8 @@ body {
 .clientes__publicidad {
   max-height: 400px;
   margin: 2% 2% 2% 0%;
+  border: #868686 1px solid;
+  border-radius: 5px;
 }
 
 .clientes__imagenes {
@@ -84,10 +86,13 @@ body {
 }
 
 .clientes__imagenes__item {
-  border: white 10px solid;
+  border: #868686 1px solid;
+  padding: 10px;
+  background-color: whitesmoke;
   width: 300px;
   height: 300px;
   margin: 5px;
+  border-radius: 5px;
 }
 
 .marcas .marcas__titulo {
@@ -131,7 +136,8 @@ body {
   background-color: rgba(215, 233, 247, 0.651);
   margin: 1% 2% 3% 2%;
   text-align: center;
-  padding: 1%;
+  padding: 10px;
+  width: 90%;
 }
 
 .estiloTabla ul {
@@ -140,12 +146,10 @@ body {
 
 .estiloTabla th {
   background-color: #9D9D9D;
-  padding: 5px;
   border: solid black;
 }
 
 .estiloTabla td {
-  padding: 2px;
   border: solid black;
 }
 
@@ -207,6 +211,8 @@ body {
   padding: 15px;
   color: #6e6e6e;
   opacity: 0.7;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .consejos .consejos__etiquetas__titulo {
@@ -241,7 +247,8 @@ body {
 
 .cambioAlimento .cambioAlimento__img {
   margin: 2%;
-  width: 35%;
+  width: 90%;
+  max-width: 900px;
   min-width: 320px;
 }
 
@@ -278,8 +285,8 @@ body {
   display: grid;
   -ms-flex-line-pack: justify;
       align-content: space-between;
-  border-radius: 4%;
-  border: solid 10px white;
+  border-radius: 5px;
+  border: solid 10px whitesmoke;
   background-color: #d7e9f7;
 }
 
