@@ -26,8 +26,10 @@
     }
     .accesorios{
         grid-template-columns: 1fr 1fr ;
-            
-        }
+    } 
+    .formularioDeContacto{
+        width: 80%;
+    }
     
 }    
 
@@ -59,5 +61,8 @@
     .accesorios{
         grid-template-columns: 1fr 1fr 1fr;
                 
-        }
+    }
+    .formularioDeContacto{
+        width: 80%;
+    }
 }

@@ -3,12 +3,17 @@
 }
 .formularioDeContacto{
     padding: 3%;
+    width: 90%;
+    justify-content: center;
+    &__dato{
+        margin: 15px 3px 10px 10px;
 
+    }
 
     &__datos{
         border: solid;
         background-color: #ece3cd ;
-        margin: 0% 10% 0% 10%;
+        margin: 5px 10% 5px 10%;
         padding: 2%;
     
         &__textArea{

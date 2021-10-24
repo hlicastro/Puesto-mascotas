@@ -49,25 +49,28 @@
             <fieldset class="formularioDeContacto__datos">
                 <legend>Datos de Contacto</legend>
            
-                <div>
+                <div class="formularioDeContacto__dato">
                     <label for="Nombre">Escribe tu nombre *</label>
                     <input type="text" name="Nombre" requiered
                     placeholder="Nombre">
+                </div>
+                <div class="formularioDeContacto__dato">   
                     <label for="Apellido">Escribe tu apellido</label>
                     <input type="text" name="Apellido"
                     placeholder="Apellido">                
                 </div>
-                    <br>
-                <div>
+                   
+                <div class="formularioDeContacto__dato">
                     <label for="Tel"> Teléfono de contacto * </label>
                     <input type="number" name="tel" requiered
                     placeholder="Ingrese su teléfono">
+                </div>
+                <div class="formularioDeContacto__dato"> 
                     <label for="Email">Escribe tu correo electrónico *</label>
                     <input type="email" name="email" requiered
                     placeholder="Ingrese su email">
                 </div>
-                    <br>
-                <div>
+                <div class="formularioDeContacto__dato">
                     <label for="Cantidad de mascotas">Selecciona la cantidad de mascotas</label>
                     <select name="Cantidad de mascotas">
                         <option value="1">1</option>
@@ -77,20 +80,20 @@
                         <option value="mas de 4">mas de 4</option>
                     </select>
                 </div>
-                    <br>
-                <div>
+                   
+                <div class="formularioDeContacto__dato">
                     <label for="Tipo">Indique por qué animal realiza la consulta</label>
                     <input type="radio" name="tipo" value="Perro"> Perro
                     <input type="radio" name="tipo" value="Gato"> Gato
                     <input type="radio" name="tipo" value="Otro"> Otro
                 </div>
-                    <br>
-                <div>
+                  
+                <div class="formularioDeContacto__dato">
                     <label for="comentario">Ingrese su consulta</label>
                     <textarea class="formularioDeContacto__datos__textArea" name="comentario" id="" cols="60" rows="10"></textarea>
                 </div>
-                    <br>          
-                <div>
+                           
+                <div class="formularioDeContacto__dato">
                     <input type="submit" value="Enviar formulario"/>
                     <input type="reset" value="Limpiar formulario"/>  
                 </div>
