@@ -314,6 +314,54 @@ body {
           transform: scale(1.1);
 }
 
+.pagina404__titulo {
+  color: #5E454B;
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+.pagina404__subTitulo {
+  color: #5E454B;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.pagina404__boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagina404__boton__link {
+  text-decoration: none;
+  color: #5E454B;
+  width: 180px;
+  background-color: #d7e9f7;
+  padding: 15px;
+  text-align: center;
+  border-radius: 20%;
+  border: solid 1px grey;
+}
+
+.pagina404__boton__link:hover {
+  color: black;
+  background-color: #dff1ff;
+}
+
+.pagina404__imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 @media only screen and (min-width: 768px) {
   .ofertas__titulo {
     font-size: 10vh;

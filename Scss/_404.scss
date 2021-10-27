@@ -1,0 +1,39 @@
+.pagina404{
+    &__titulo{
+        @include baseTitulo(2.5vw);
+
+    }
+    &__subTitulo{
+        @include baseTitulo(1.5vw);
+
+    }    
+    &__boton{ 
+        display: flex;
+        justify-content: center;
+        
+        &__link{
+        text-decoration: none;
+        color: $colortitulos;
+        width: 180px;
+        background-color: $fondoCeleste;
+        padding: 15px;
+        text-align: center;
+        border-radius: 20%;
+        border: solid 1px grey;
+        &:hover{
+            color: black;
+            background-color: $fondoCeleste +8;
+
+        }
+    }
+
+    }
+    &__imagen{
+        display: flex;
+        width: 60%;
+        max-width: 600px;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
