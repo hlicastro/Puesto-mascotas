@@ -3,21 +3,30 @@
 }
 .formularioDeContacto{
     padding: 3%;
-    width: 90%;
-    justify-content: center;
+    display: flex ;
+    justify-content:center;
+    margin: auto;
     &__dato{
         margin: 15px 3px 10px 10px;
 
     }
-
+    
     &__datos{
         border: solid;
+        border-radius: 5%;
         background-color: #ece3cd ;
         margin: 5px 10% 5px 10%;
         padding: 2%;
     
         &__textArea{
             max-width: 90%;
+            border-radius: 3%;
+        }
+    }
+    input{
+        border: solid 1px;
+        &:hover{
+            transform: scale(1.06);
         }
     }   
 }

@@ -8,6 +8,7 @@
     }
 }
 
+
 /* limita el tamaño del cartel de publicidad */
 .clientes{
     margin-bottom: 5px;
@@ -17,7 +18,7 @@
     &__publicidad{
         max-height: 400px;
         margin: 2% 2% 2% 0%;
-        border: rgb(134, 134, 134) 1px solid;
+        border: $bordeContenedores 1px solid;
         border-radius: 5px;
 
     }
@@ -27,14 +28,19 @@
         flex-wrap: wrap;
         justify-content: space-around;
         &__item{
-            border: rgb(134, 134, 134) 1px solid;
+            border: $bordeContenedores 1px solid;
             padding: 10px;
             background-color: whitesmoke;
             width: 300px;
             height: 300px;
             margin: 5px;
             border-radius: 5px;
+            &:hover{
+                border: 1px solid rgb(27, 27, 27);
+            }
         }
+        
+
     }
 
 
