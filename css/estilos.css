@@ -28,8 +28,8 @@ body {
 }
 
 .footer .footer__redes__img:hover {
-  -webkit-transform: scale(1.04);
-          transform: scale(1.04);
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
 }
 
 .header {
@@ -95,6 +95,10 @@ body {
   border-radius: 5px;
 }
 
+.clientes__imagenes__item:hover {
+  border: 1px solid #1b1b1b;
+}
+
 .marcas .marcas__titulo {
   color: #5E454B;
   font-size: 4vw;
@@ -141,6 +145,7 @@ body {
 }
 
 .estiloTabla ul {
+  border-radius: 5%;
   list-style: none;
 }
 
@@ -161,10 +166,13 @@ body {
 
 .formularioDeContacto {
   padding: 3%;
-  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: auto;
 }
 
 .formularioDeContacto__dato {
@@ -173,6 +181,7 @@ body {
 
 .formularioDeContacto__datos {
   border: solid;
+  border-radius: 5%;
   background-color: #ece3cd;
   margin: 5px 10% 5px 10%;
   padding: 2%;
@@ -180,6 +189,16 @@ body {
 
 .formularioDeContacto__datos__textArea {
   max-width: 90%;
+  border-radius: 3%;
+}
+
+.formularioDeContacto input {
+  border: solid 1px;
+}
+
+.formularioDeContacto input:hover {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
 }
 
 .baseConsejos, .consejos .consejos__titulo, .cambioAlimento .cambioAlimento__titulo, .cuidadoCahorros .cuidadoCahorros__titulo {
@@ -343,7 +362,7 @@ body {
   padding: 15px;
   text-align: center;
   border-radius: 20%;
-  border: solid 1px grey;
+  border: solid 1px #868686;
 }
 
 .pagina404__boton__link:hover {

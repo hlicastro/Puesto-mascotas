@@ -39,16 +39,15 @@
                 </div>
             </div>
         </nav>
- 
+
     </header>
- 
+
     <main>
         <!--Formulario de contacto-->
         <h1 class="TituloContactos">COMUNICATE CON NOSOTROS</h1>
         <form action="#" class="formularioDeContacto">
-            <fieldset class="formularioDeContacto__datos">
-                <legend>Datos de Contacto</legend>
-           
+            <fieldset class="formularioDeContacto__datos"> <legend>Datos de Contacto</legend>
+        
                 <div class="formularioDeContacto__dato">
                     <label for="Nombre">Escribe tu nombre *</label>
                     <input type="text" name="Nombre" requiered
@@ -59,17 +58,18 @@
                     <input type="text" name="Apellido"
                     placeholder="Apellido">                
                 </div>
-                   
+                
                 <div class="formularioDeContacto__dato">
                     <label for="Tel"> Teléfono de contacto * </label>
-                    <input type="number" name="tel" requiered
+                    <input class="form__input" type="number" name="tel" requiered
                     placeholder="Ingrese su teléfono">
                 </div>
+                
                 <div class="formularioDeContacto__dato"> 
-                    <label for="Email">Escribe tu correo electrónico *</label>
                     <input type="email" name="email" requiered
                     placeholder="Ingrese su email">
                 </div>
+
                 <div class="formularioDeContacto__dato">
                     <label for="Cantidad de mascotas">Selecciona la cantidad de mascotas</label>
                     <select name="Cantidad de mascotas">
@@ -80,28 +80,28 @@
                         <option value="mas de 4">mas de 4</option>
                     </select>
                 </div>
-                   
+                
                 <div class="formularioDeContacto__dato">
                     <label for="Tipo">Indique por qué animal realiza la consulta</label>
                     <input type="radio" name="tipo" value="Perro"> Perro
                     <input type="radio" name="tipo" value="Gato"> Gato
                     <input type="radio" name="tipo" value="Otro"> Otro
                 </div>
-                  
+                
                 <div class="formularioDeContacto__dato">
                     <label for="comentario">Ingrese su consulta</label>
                     <textarea class="formularioDeContacto__datos__textArea" name="comentario" id="" cols="60" rows="10"></textarea>
                 </div>
-                           
+                
                 <div class="formularioDeContacto__dato">
                     <input type="submit" value="Enviar formulario"/>
                     <input type="reset" value="Limpiar formulario"/>  
                 </div>
- 
+
             </fieldset>
         </form>        
     </main>
- 
+
     <footer class="footer">
         <section class="footer__redes">
             <a href="https://www.instagram.com/puestomascotas/" target="_bkank"> <img class="footer__redes__img" src="./Img/instagram.png" alt="instagram" width="50"></a>
@@ -109,7 +109,7 @@
             <a href="https://wa.me/+541158305862" target="_bkank"><img class="footer__redes__img" src="./Img/whatsapp.png" alt="Watsapp" width="50"></a>
         </section>
     </footer>
- 
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
